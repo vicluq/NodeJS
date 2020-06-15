@@ -1,0 +1,12 @@
+{
+  "name": "M2-CreatingServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FirstServer.js",
+  "scripts": {
+    "test": "nodemon FirstServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
