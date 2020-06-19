@@ -1,8 +1,11 @@
 # NodeJS Course
 
-- **Section 1: Introduction & what is Node?**
+- **Section 1 - Introduction & what is Node?**
+
   - [x] Understanding the Role & Usage of Node.js
-- **Section 2: Understanding The Basics**
+
+- **Section 2 - Understanding The Basics**
+
   - [x] How The Web Works
   - [x] Creating a Server
   - [x] Node Lifecycle & Event Loops
@@ -16,17 +19,38 @@
   - [x] Node.js - Looking Behind the Scenes
   - [x] Using the Node Modules System
         **[x] assignment**
-- **Section 3: Improving Workflow**
-  - [ ] How The Web Works
-  - [ ] Creating a Server
-  - [ ] Node Lifecycle & Event Loops
-  - [ ] Understanding Requests
-  - [ ] Sending Responses
-  - [ ] Routing Requests
-  - [ ] Redirecting Requests
-  - [ ] Parsing Request Bodies
-  - [ ] Understanding Event Driven Code Eecution
-  - [ ] Blocking and Non-Blocking Code
-  - [ ] Node.js - Looking Behind the Scenes
-  - [ ] Using the Node Modules System
+
+- **Section 3 - Debugging & NPM & Node Module System**
+
+  - [x] Running Debugger
+  - [x] Writing Expressions on debugger console to test
+  - [x] Restarting Debugger Automatically (_Nodemon_ as runtimeExecutable and restart to true)
+
+- **Section 4 - Working With Express.js**
+
+  - [x] What is Express
+  - [ ] Middlewares
+  - [ ] Express: Behind the scenes
+  - [ ] Handling **Routes**
+  - [ ] Parsing Requests
+  - [ ] Adding **Middleware to Specific** Requests
+  - [ ] Express **Router**
+  - [ ] 404 Page
+  - [ ] Filtering Paths
+  - [ ] **Creating & Serving HTML** Pages (in HTTP => ReadFile)
+  - [ ] Helper Function For Navigation
+  - [ ] **Styling** Pages
+  - [ ] Serving **Static Files**
+
+- **Section 5 - Express.js: Dynamic Content & Template Engines (monolites)**
+
+  - [ ] Share Data Between Requests
+  - [ ] Template Engines - Introduction
+  - [ ] Installing & Implementing **Pug**
+  - [ ] Output Dynamic Content
+  - [ ] HTML -> PUG
+  - [ ] Adding Layout
+  - [ ] Handlebars
+  - [ ] EJS
+  - [ ] Partials
         **[ ] assignment**
