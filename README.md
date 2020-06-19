@@ -17,3 +17,16 @@
   - [x] Using the Node Modules System
         **[x] assignment**
 - **Section 3: Improving Workflow**
+  - [ ] How The Web Works
+  - [ ] Creating a Server
+  - [ ] Node Lifecycle & Event Loops
+  - [ ] Understanding Requests
+  - [ ] Sending Responses
+  - [ ] Routing Requests
+  - [ ] Redirecting Requests
+  - [ ] Parsing Request Bodies
+  - [ ] Understanding Event Driven Code Eecution
+  - [ ] Blocking and Non-Blocking Code
+  - [ ] Node.js - Looking Behind the Scenes
+  - [ ] Using the Node Modules System
+        **[ ] assignment**

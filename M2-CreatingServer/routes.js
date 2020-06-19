@@ -55,6 +55,21 @@ exports.requestHandler = function (req, res) {
     return res.end();
   }
 
+  if (req.method === "GET" && req.url.includes(".html")) {
+    console.log(req.url.slice(1));
+    return fs.readFile(`./${req.url.slice(1)}`, (err, data) => {
+      if (err) {
+        res.writeHead(404, { "Content-Type": "text/html" });
+        res.write("<h1>404 File Does Not Exist</h1>");
+        return res.end();
+      } else {
+        res.writeHead(201, { "Content-Type": "text/html" });
+        res.write(data);
+        return res.end();
+      }
+    });
+  }
+
   // default for not configured paths
   res.setHeader("Content-Type", "text/html");
   res.statusCode = 404;
