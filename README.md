@@ -29,11 +29,11 @@
 - **Section 4 - Working With Express.js**
 
   - [x] What is Express
-  - [ ] Middlewares
-  - [ ] Express: Behind the scenes
-  - [ ] Handling **Routes**
-  - [ ] Parsing Requests
-  - [ ] Adding **Middleware to Specific** Requests
+  - [x] Middlewares (use() || method())
+  - [x] Express: Behind the scenes
+  - [x] Handling **Routes**
+  - [x] Parsing Requests
+  - [x] Adding **Middleware to Specific** Requests
   - [ ] Express **Router**
   - [ ] 404 Page
   - [ ] Filtering Paths
