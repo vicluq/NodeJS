@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/new_product.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    <header class="app-header">
+        <div class="app-title">
+            <h1 class="app-title">Luquet Shop</h1>
+        </div>
+        <nav class="app-nav">
+            <ul>
+                <li><a href="/products">Shop</a></li>
+                <li><a href="/products/new-product">New Product</a></li>
+            </ul>
+        </nav>
+        <div class="app-toggle-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <main class="app-main-new-product">
+        <form action='http://localhost:3003/products/new-product' method="POST">
+            <h2>Add a New Product</h2>
+            <input type="text" name='product_name' placeholder="name..." />
+            <input type="text" name='price' placeholder="price..." />
+            <button type="submit">SUBMIT</button>
+        </form>
+    </main>
+    <footer class="app-footer"></footer>
+</body>
+
+</html>
