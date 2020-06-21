@@ -1,7 +1,7 @@
 ## First Server
 
 ```
-//TODO: First Step: create an instance of createServer
+// First Step: create an instance of createServer
 // Executes the received function for every incoming req -> GET, POST,etc
 
 const server = http.createServer((req, res) => {
@@ -23,9 +23,9 @@ const server = http.createServer((req, res) => {
   });
 });
 
-//FIXME: set res headers -> give something to render -> end resp
+//set res headers -> give something to render -> end resp
 
-//TODO: after creating the server we have to listen to requests
+//after creating the server we have to listen to requests
 // must give the port
 
 server.listen(3003, () => {

@@ -34,11 +34,11 @@
   - [x] Handling **Routes**
   - [x] Parsing Requests
   - [x] Adding **Middleware to Specific** Requests
-  - [ ] Express **Router**
-  - [ ] 404 Page
-  - [ ] Filtering Paths
-  - [ ] **Creating & Serving HTML** Pages (in HTTP => ReadFile)
-  - [ ] Helper Function For Navigation
+  - [x] Express **Router**
+  - [x] 404 Page
+  - [x] Filtering Paths on Routes -> use('/for-this-path', thisRoute) -> Route's paths will be attached to '/for-this-path'
+  - [x] **Creating & Serving HTML** Pages (in HTTP => ReadFile)
+  - [x] Helper Function For Navigation
   - [ ] **Styling** Pages
   - [ ] Serving **Static Files**
 
