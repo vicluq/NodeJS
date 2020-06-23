@@ -1,13 +1,18 @@
 const express = require("express");
+const dotenv = require("dotenv");
+
+const env_node = dotenv.config();
 
 const app = express();
 
-const port = 3003;
+const port = process.env.PORT || 3003;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use("/css", express.static("./styles"));
-app.use("/scripts", express.static("./scripts"));
+// serving my static files to use inside html
+app.use("/css", express.static("./public/styles"));
+app.use("/scripts", express.static("./public/scripts"));
+app.use("/img", express.static("./public/images"));
 
 app.get("/", (req, res, next) => {
   res.redirect(`${req.protocol}://${req.hostname}:${port}/products`);

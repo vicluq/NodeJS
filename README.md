@@ -39,8 +39,8 @@
   - [x] Filtering Paths on Routes -> use('/for-this-path', thisRoute) -> Route's paths will be attached to '/for-this-path'
   - [x] **Creating & Serving HTML** Pages (in HTTP => ReadFile)
   - [x] Helper Function For Navigation
-  - [ ] **Styling** Pages
-  - [ ] Serving **Static Files**
+  - [x] **Styling** Pages
+  - [x] Serving **Static Files**
 
 - **Section 5 - Express.js: Dynamic Content & Template Engines (monolites)**
 

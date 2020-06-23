@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "segoe ui", Helvetica,
+    Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
 }
 
 body {
@@ -66,8 +68,12 @@ body {
   transition: all 0.25s;
 }
 
+.app-header .app-nav ul li + li {
+  background-color: #ec5252;
+}
+
 .app-header .app-nav ul li:hover {
-  background-color: hsla(222, 14%, 15%, 0.725);
+  opacity: 0.75;
   box-shadow: none;
 }
 
@@ -117,7 +123,7 @@ body {
     left: calc(100% - 230px);
     background-color: #20232a;
     box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.342);
-    /* transition: transform 0.2s ease-in; */
+    transition: transform 0.2s ease-in;
   }
 
   .app-header .app-nav.show {
@@ -140,7 +146,7 @@ body {
   }
 
   .app-header .app-nav ul li:hover {
-    background-color: hsla(225, 6%, 26%, 0.61);
+    opacity: 0.7;
   }
 
   .app-toggle-menu {

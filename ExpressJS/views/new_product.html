@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/shop-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/new_product.css">
     <title>Shop</title>
@@ -29,12 +30,15 @@
     <main class="app-main-new-product">
         <form action='http://localhost:3003/products/new-product' method="POST">
             <h2>Add a New Product</h2>
-            <input type="text" name='product_name' placeholder="name..." />
-            <input type="text" name='price' placeholder="price..." />
+            <label for="prod_name">Product Name</label>
+            <input type="text" id="prod_name" name='product_name' />
+            <label for="prod_price">Product Price</label>
+            <input type="text" id="prod_price" name='price' />
             <button type="submit">SUBMIT</button>
         </form>
     </main>
     <footer class="app-footer"></footer>
+    <script src="/scripts/index.js"></script>
 </body>
 
 </html>
